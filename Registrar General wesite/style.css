@@ -1,0 +1,207 @@
+header {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top: 0%;
+    position: fixed;
+    box-sizing: border-box;
+  }
+  /* Styles for logo */
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  /* Styles for navigation */
+  nav {
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #363535;
+    width: 50%;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    border-radius: 40px;
+    padding: 5px 10px;
+  }
+  nav ul li a:hover {
+    background-color: #959292;
+  }
+.selected {
+    background-color: black;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full height of viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    margin-top: 80px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background color for readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+.containerr{
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background color for readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+h1 {
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #3a3939;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+.containerr input[type="text"] {
+    width: calc(100% - 20px); /* Adjust input width to accommodate padding */
+    padding: 15px; /* Increase padding for larger input fields */
+    margin-bottom: 20px; /* Add more margin between input fields */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Increase border radius for rounded corners */
+    font-size: 16px; /* Increase font size for better readability */
+    display: inline-block; /* Display inputs inline */
+    vertical-align: top; /* Align inputs to the top */
+}
+.containerr input[type="date"] {
+    width: calc(100% - 20px); /* Adjust input width to accommodate padding */
+    padding: 15px; /* Increase padding for larger input fields */
+    margin-bottom: 20px; /* Add more margin between input fields */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Increase border radius for rounded corners */
+    font-size: 16px; /* Increase font size for better readability */
+    display: inline-block; /* Display inputs inline */
+    vertical-align: top; /* Align inputs to the top */
+}
+.containerr input[type="submit"] {
+    background-color: #007bff; /* Blue color */
+    color: #fff; /* White text color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block; /* Ensure the button spans the full width */
+    width: 50%; /* Make the button span the full width */
+    padding: 15px; /* Increase padding */
+    border-radius: 50px; /* Round border radius to make it circular */
+    margin-top: 20px; /* Add margin at the top */
+    margin: auto;
+}
+
+.containerr input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+.form-row {
+    max-width: fit-content;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row; /* Arrange items in a row */
+    justify-content: space-between; /* Distribute space between items */
+}
+.certificate_ty select{
+    width: calc(100% - 20px); /* Set width for the select element */
+    padding: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    display: block; /* Make the select element full width */
+}
+.certificate_ty select::-ms-expand {
+    display: none; /* Hide default arrow for IE */
+}
+
+.certificate_ty select {
+    -webkit-appearance: none; /* Hide default arrow for modern browsers */
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>'); /* Custom arrow */
+    background-repeat: no-repeat;
+    background-position: right 15px center; /* Position the arrow on the right */
+}
+.containerr button[type="submit"] {
+    background-color: #007bff; /* Blue color for submit button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px; /* Round border radius for submit button */
+    padding: 10px 20px; /* Add padding for submit button */
+    margin-right: 10px; /* Add margin between buttons */
+}
+
+.containerr button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue color on hover for submit button */
+}
+
+.containerr button[type="button"] {
+    background-color: #dc3545; /* Red color for cancel button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px; /* Round border radius for cancel button */
+    padding: 10px 20px; /* Add padding for cancel button */
+}
+
+.containerr button[type="button"]:hover {
+    background-color: #c82333; /* Darker red color on hover for cancel button */
+}
