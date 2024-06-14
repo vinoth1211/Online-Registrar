@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+.container-2{
+    margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.326);
+}
+
+.container-2 form{
+  padding:20px;
+  width:700px;
+  background: #ffffff65;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.container-2 form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.container-2 form .row .col{
+  flex:1 1 250px;
+}
+
+.container-2 form .row .col .title{
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container-2 form .row .col .inputBox{
+  margin:15px 0;
+}
+
+.container-2 form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.container-2 form .row .col .inputBox input{
+  width: 100%;
+  border:1px solid #cccccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+  background-color: #ffffffb5;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+.container-2 form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.container-2 form .row .col .flex{
+  display: flex;
+  gap:15px;
+}
+
+.container-2 form .row .col .flex .inputBox{
+  margin-top: 5px;
+}
+
+.container-2 form .row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.container-2 form .submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: #27ae60;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.container-2 form .submit-btn:hover{
+  background: #2ecc71;
+}
+.container-3{
+    margin-top: 300px;
+    padding:20px;
+    background-color: rgba(255, 255, 255, 0.326);
+    width: 500px;
+    height: fit-content;
+}
+.container-3 .h3{
+    text-align: center;
+}
+.container-3 .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 60px;
+    margin-top: -20px;
+}
+.invoice{
+    width: 100%;
+    height: 80vh;
+    background-color: #ffffff83;
+    padding: 25px;
+}
+hr{
+    color: rgb(0, 0, 0);
+    font-size: 2px;
+}
