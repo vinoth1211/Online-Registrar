@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar General Department</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="Sri Lanka.jpeg" alt="Logo">
+          <h1>Registrar General's Department</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="certificate.html" class="selected">Certificates</a></li>
+            <li><a href="Contact Us.html">Contact us</a></li>
+            <li><a href="order.html">Order</a></li>
+          </ul>
+        </nav>
+      </header>
+    <div class="containerr">
+        <p><b>please fill the requesting certificate information </b></p>
+        <form action="#" >
+            <div class="certificate_ty">
+            <select name="certificate_type" id="certificate-type">
+                <option value="birth">Birth Certificate</option>
+                <option value="death">Death Certificate</option>
+                <option value="marriage">Marriage Certificate</option>
+            </select>
+            </div>
+            <div class="form-row">
+            <input type="text" name="certificate Number" placeholder="Certificate No*">
+            <input type="text" name="Owner's full name" placeholder="Owner's Full Name*">
+            <input type="date" name="certificate Date" placeholder="Certificate date*">
+        </div>
+        <div class="form-row">
+            <input type="text" name="Registered District" placeholder="Registered District*">
+            <input type="text" name="Registered DS" placeholder="Registered DS*">
+        </div>
+        <div>
+            <button type="submit" name="submit">Submit</button>
+        <button type="button" onclick="window.location.href='index.html';">Cancel</button>
+        </div>
+        </form>
+    </div>
+</body>
